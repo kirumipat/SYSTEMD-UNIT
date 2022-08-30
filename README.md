@@ -1,6 +1,6 @@
 # SYSTEMD-UNIT
 Creating a Linux service with systemd
-(https://linuxteaching.com/storage/img/images_1/systemd_unit_file_creating_a_service.png)
+<img src="https://linuxteaching.com/storage/img/images_1/systemd_unit_file_creating_a_service.png)">
 
 
 ## Создаём фаил скрипта
