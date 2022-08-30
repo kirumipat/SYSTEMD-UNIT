@@ -1,7 +1,7 @@
 # SYSTEMD-UNIT
 Creating a Linux service with systemd
-# ZSH OHMYZSH POWERLEVEL10K EXA
-<img src="https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/extravagant-style.png">
+
+<img src="">
 
 
 ## Настройки юнита
