@@ -8,20 +8,20 @@ Creating a Linux service with systemd
 nano mystart.sh
 ```
 ## Пример скрипта
-```bash
+```console
 #!/bin/bash
 touch /"$(date +"%d-%m-%Y-%r")"
 ```
 ## Рарешаем запуск скрипта
-```bash
+```console
 sudo chmod +x mystart.sh
 ```
 ## Переходим в деррикторию с сервисами
-```bash
+```console
 cd /etc/systemd/system
 ```
 ## Создаём фаил сервиса
-```bash
+```console
 sudo nano mystart.service
 ```
 
@@ -46,11 +46,11 @@ ExecStart=/home/NAME/mystart.sh
 WantedBy=default.target
 ```
 ## Запускаем сервис единоразово
-```bash
+```console
 sudo systemctl start mystart.service
 ```
 ## Добавляем сервис в автозагрузку
-```bash
+```console
 sudo systemctl enable mystart.service
 ```
 
