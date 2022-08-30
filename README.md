@@ -4,7 +4,7 @@ Creating a Linux service with systemd
 
 
 ## Создаём фаил скрипта
-```bash
+```console
 nano mystart.sh
 ```
 ## Пример скрипта
