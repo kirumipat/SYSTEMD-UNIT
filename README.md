@@ -17,7 +17,7 @@ After=default.target
 User=root
 # перезапуск службы, не обязательно
 Restart=on-failure
-#выполняемая команда
+# выполняемая команда
 ExecStart=/home/NAME/mystart.sh
 
 [Install]
