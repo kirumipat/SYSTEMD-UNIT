@@ -12,11 +12,11 @@ nano mystart.sh
 #!/bin/bash
 touch /"$(date +"%d-%m-%Y-%r")"
 ```
-## Рарешаем запуск скрипта
+## Разрешаем запуск скрипта
 ```console
 sudo chmod +x mystart.sh
 ```
-## Переходим в деррикторию с сервисами
+## Переходим в директорию с сервисами
 ```console
 cd /etc/systemd/system
 ```
