@@ -56,4 +56,4 @@ sudo systemctl enable mystart.service
 
 ## VIDEO
 
-[![INSATALL ADDGUARD HOME](https://www.youtube.com/watch?v=SGHjEDVhb38)](https://youtu.be/SGHjEDVhb38)
+[![INSATALL ADDGUARD HOME](https://i9.ytimg.com/vi_webp/SGHjEDVhb38/mqdefault.webp?v=630e0583&sqp=CKCKuJgG&rs=AOn4CLBeyQIoQwe4biL9ihYfbFU2l2RgAg)](https://youtu.be/SGHjEDVhb38)
