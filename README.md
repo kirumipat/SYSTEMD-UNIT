@@ -1,22 +1,26 @@
 # SYSTEMD-UNIT
 Creating a Linux service with systemd
 
-<img src="">
 
 
+## Создаём фаил скрипта
 ```bash
 nano mystart.sh
 ```
+## Пример скрипта
 ```bash
 #!/bin/bash
 touch /"$(date +"%d-%m-%Y-%r")"
 ```
+## Рарешаем запуск скрипта
 ```bash
 sudo chmod +x mystart.sh
 ```
+## Переходим в деррикторию с сервисами
 ```bash
 cd /etc/systemd/system
 ```
+## Создаём фаил сервиса
 ```bash
 sudo nano mystart.service
 ```
@@ -41,7 +45,14 @@ ExecStart=/home/NAME/mystart.sh
 # здесь используется ключи времени с указанием цели или другой службы
 WantedBy=default.target
 ```
-
+## Запускаем сервис единоразово
+```bash
+sudo systemctl start mystart.service
+```
+## Добавляем сервис в автозагрузку
+```bash
+sudo systemctl enable mystart.service
+```
 
 ## VIDEO
 
