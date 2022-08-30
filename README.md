@@ -4,6 +4,23 @@ Creating a Linux service with systemd
 <img src="">
 
 
+```bash
+nano mystart.sh
+```
+```bash
+#!/bin/bash
+touch /"$(date +"%d-%m-%Y-%r")"
+```
+```bash
+sudo chmod +x mystart.sh
+```
+```bash
+cd /etc/systemd/system
+```
+```bash
+sudo nano mystart.service
+```
+
 ## Настройки юнита
 ```console
 [Unit]
