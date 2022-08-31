@@ -38,7 +38,7 @@ After=default.target
 User=root
 # перезапуск службы, не обязательно
 Restart=on-failure
-# выполняемая команда
+# выполняемая команда Вместо NAME имя пользователя или просто другой путь где у вас лежит скрипт
 ExecStart=/home/NAME/mystart.sh
 
 [Install]
