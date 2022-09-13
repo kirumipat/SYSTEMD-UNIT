@@ -7,10 +7,28 @@
 ```console
 nano mystart.sh
 ```
-## Пример скрипта
+## Пример скрипта Который запускаеться от root при загрузке системы
 ```console
 #!/bin/bash
+############-YOU SCRIPT-##############
 touch /"$(date +"%d-%m-%Y-%r")"
+######################################
+```
+## Пример скрипта Который запускаеться от root при логине любого пользователя
+# тестировалось на Ubuntu Server 22
+```console
+#!/bin/bash
+LoginTime=`last -n 1 | grep -e logged`
+while :; do
+    LasTime=`last -n 1 | grep -e logged`
+    if [ "$LasTime" != "$LoginTime" ] && [ "$LasTime" != "" ]; then
+        LoginTime=`last -n 1 | grep -e logged`
+        ############-YOU SCRIPT-##############
+        touch /"$(date +"%d-%m-%Y-%r")"
+        ######################################
+    fi
+    sleep 10
+done
 ```
 ## Разрешаем запуск скрипта
 ```console
