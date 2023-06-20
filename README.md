@@ -74,5 +74,5 @@ sudo systemctl enable mystart.service
 
 ## VIDEO
 
-[<img src="https://i.ytimg.com/vi/SGHjEDVhb38/maxresdefault.jpg" width="800" height="400" >](https://youtu.be/SGHjEDVhb38)
+[<img src="https://i.ytimg.com/vi/SGHjEDVhb38/maxresdefault.jpg" width="600" height="400" >](https://youtu.be/SGHjEDVhb38)
 
