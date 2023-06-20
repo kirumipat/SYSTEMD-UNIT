@@ -74,4 +74,4 @@ sudo systemctl enable mystart.service
 
 ## VIDEO
 
-[![BASH](https://i9.ytimg.com/vi_webp/SGHjEDVhb38/mqdefault.webp?v=630e0583&sqp=CKCKuJgG&rs=AOn4CLBeyQIoQwe4biL9ihYfbFU2l2RgAg)](https://youtu.be/SGHjEDVhb38)
+[![BASH](https://i.ytimg.com/vi/SGHjEDVhb38/maxresdefault.jpg)](https://youtu.be/SGHjEDVhb38)
