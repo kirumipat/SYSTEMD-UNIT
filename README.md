@@ -74,4 +74,5 @@ sudo systemctl enable mystart.service
 
 ## VIDEO
 
-[![BASH](https://i.ytimg.com/vi/SGHjEDVhb38/maxresdefault.jpg)](https://youtu.be/SGHjEDVhb38)
+[<img src="https://i.ytimg.com/vi/SGHjEDVhb38/maxresdefault.jpg" width="800" height="400" >]([https://getfedora.org/](https://youtu.be/SGHjEDVhb38))
+
